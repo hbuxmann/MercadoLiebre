@@ -1,0 +1,423 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+div.top-header{
+    padding: 5%;
+}
+
+
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo{
+    width: 50%;
+}
+
+header div.logo{
+    padding: 10px;
+}
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #777;
+}
+
+
+
+section.banner img{
+    width: 100%;
+}
+
+
+main section article{
+    background-color: #fff;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+
+.main-section { 
+    padding-left: 5%;   
+    padding-right: 5%;
+    /* width: 90%; */
+    display: inline-block;
+    justify-content: center;
+}
+
+.last-visit, .offers {
+    display: flexbox;    
+    flex-direction: row;
+}
+
+/* .product_img {
+    width: 200px;
+    height: 100;
+} */
+
+
+/* inicio modificación entrega 6 */
+
+div h4.description {
+    opacity: 0;
+}
+
+div h4.description:hover {
+    opacity: 1;
+}
+
+div.main-article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.camion:hover {
+    animation: rotar 1s linear 2 alternate;
+}
+
+@keyframes rotar {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(-90deg);
+    }
+    
+}
+
+/* fin modificación entrega 6 */
+
+article {
+        display: inline-block;
+        margin: 10px;
+        width: 270;
+        height: 170;
+}
+
+.main-article {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+
+.nav-left, .nav-right {
+    margin: 10px 10px; 
+    display: none;
+}
+
+nav ul.nav-left li, nav ul.nav-right li {
+    margin-left: 15px;
+}
+
+article div h4 {
+    display: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.price-disc {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    
+}
+
+.input {
+    width: 60%;
+}
+
+.price{
+    flex-grow: 4;
+}
+
+.discount {
+    flex-grow: 6;
+}
+
+.camion {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a ;;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    top: -15px;
+    background-color: #FFF;
+} 
+
+/* agregado en el desafio 4 */
+/* .camion {
+    display: block ;
+    font-size: 16 px ;
+    padding: 5 px ;
+    width: 30 px ;
+    height: 30 px ;
+    border: 1 px solid #39b54a ;
+    background-color: #FFF ;
+    border-radius: 50 % ;
+    position: absolute ;
+    right: 20 px ;
+    top: -15 px ;
+} */
+
+.logo-search {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.top-header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+div.form .input, div.form .submit {
+    height: 1em;
+    margin-left: 3px;
+}
+
+footer{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+}
+footer div i{
+    color: blue;
+    font-size: 2em;
+}
+
+footer div i:hover{    
+    color: green;
+}
+
+
+footer div {
+    background-color: white;
+    /* height: 100px; */
+    /* margin: 1px 0px; */
+    /* margin: 0; */
+    padding: 10px; 
+    font-size: 1em;
+    text-align: center;
+    width: 100%;    
+  } 
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+ 
+.create-form {
+  position: relative;
+  left: 25%;
+  /* margin: 0px 20px; */
+} 
+
+.control-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.control-form-radio {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.button-form {
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-left: 15px ;
+}
+
+.control-form-botones {
+    display: flex;    
+
+}
+
+button:hover {
+    background-color: rgb(72, 106, 72);
+}
+
+.login-form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    margin: 50px 0px;
+    /* width: 35%; */
+
+}
+
+.input-box {
+    width: 100%;
+}
+
+@media (min-width: 361px) {
+    article div h4 {
+        display: block;
+    }
+    .nav-left, .nav-right {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .burger-menu {     
+        display: none;
+    }
+
+    article {
+        width: 44%;
+    }
+    .top-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+
+    div.form .input, div.form .submit {
+        height: 2em;
+        margin-left: 5px;
+    }
+/* 
+    div.logo, div.form, div.message  {
+        flex-grow: 1;
+    } */
+
+    div.logo {
+        flex-grow: 1;
+    }
+
+    div.input {
+        flex-grow: 3;        
+    }
+
+
+    div.message p {
+        flex-grow: 3;
+    }
+
+}
+
+
+ 
+@media (min-width: 769px) {
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    article {
+        width: 22%;
+    }
+
+    .footer-main {        
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+    }
+
+} 
